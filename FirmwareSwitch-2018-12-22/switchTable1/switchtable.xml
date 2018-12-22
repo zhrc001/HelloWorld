@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SwitchTable>
+    <SwitchingRule ver="1.0.0">
+        <CarrierDef>
+            <!-- Generic -->
+            <CarrierItem name="Generic" id="1" />
+            <!-- China -->
+			<!-- disable cmcc cu
+            <CarrierItem name="CHINA MOBILE" id="211" />
+            <CarrierItem name="China Telecom" id="117" />
+            <CarrierItem name="China Unicom" id="108" />
+			 -->
+            <CarrierItem name="AT&amp;T" id="201" />
+            <CarrierItem name="Verizon" id="101" />
+            <CarrierItem name="Vodafone" id="202" />
+            <CarrierItem name="Telefonica" id="205" />
+			<!-- disable Orange 2017-11-29 by songjiaxin
+            <CarrierItem name="Orange" id="204" />
+			 -->
+            <CarrierItem name="Telstra" id="107" />
+            <CarrierItem name="Docomo" id="216" />
+            <CarrierItem name="KDDI" id="115" />
+            <CarrierItem name="SwissCom" id="210" />
+			<!--Deutsche Telekom -->
+			<CarrierItem name="Deutsche Telekom" id="119" />
+			<!--Soft Bank -->
+			<CarrierItem name="Softbank" id="218" />
+			<!--optus Telekom -->
+			<CarrierItem name="Optus" id="226" />
+            <!-- Taiwan -->
+            <CarrierItem name="Chunghwa Telecom" id="16" />
+            <CarrierItem name="Far EasTone" id="17" />
+			
+			<!--
+            <CarrierItem name="MOBITAI" id="18" />
+            <CarrierItem name="Taiwan Mobile" id="19" />
+            <CarrierItem name="T Star" id="20" />
+			 -->
+        </CarrierDef>
+        <SelectionRule>
+            <MCCMNCTable>
+				<!-- disable cmcc ct cu
+                <Item mccmnc="46000">211</Item>
+                <Item mccmnc="45412">211</Item>
+                <Item mccmnc="45413">211</Item>
+                <Item mccmnc="46011">117</Item>
+                <Item mccmnc="46003">117</Item>
+                <Item mccmnc="46001">108</Item>
+                <Item mccmnc="46009">108</Item>
+				-->
+                <Item mccmnc="310280">201</Item>
+                <Item mccmnc="310410">201</Item>
+                <Item mccmnc="310380">201</Item>
+                <Item mccmnc="310030">201</Item>
+                <Item mccmnc="310150">201</Item>
+                <Item mccmnc="310170">201</Item>
+				<!-- AT&T add -->
+                <Item mccmnc="310070">201</Item>
+                <Item mccmnc="310090">201</Item>
+                <Item mccmnc="310560">201</Item>
+                <Item mccmnc="310680">201</Item>
+                <Item mccmnc="311180">201</Item>
+                <Item mccmnc="311480">101</Item>
+				<!-- Verizon add -->
+                <Item mccmnc="311270">101</Item>
+                <Item mccmnc="312770">101</Item>				
+                <Item mccmnc="27602">202</Item>
+                <Item mccmnc="50503">202</Item>
+                <Item mccmnc="23003">202</Item>
+                <Item mccmnc="60202">202</Item>
+                <Item mccmnc="28802">202</Item>
+                <Item mccmnc="54201">202</Item>
+                <Item mccmnc="54715">202</Item>
+                <Item mccmnc="26202">202</Item>
+                <Item mccmnc="62002">202</Item>
+                <Item mccmnc="20205">202</Item>
+                <Item mccmnc="21670">202</Item>
+                <Item mccmnc="27402">202</Item>
+                <Item mccmnc="40413">202</Item>
+                <Item mccmnc="40484">202</Item>
+                <Item mccmnc="40411">202</Item>
+                <Item mccmnc="40405">202</Item>
+                <Item mccmnc="40401">202</Item>
+                <Item mccmnc="40486">202</Item>
+                <Item mccmnc="40446">202</Item>
+                <Item mccmnc="404030">202</Item>
+                <Item mccmnc="40427">202</Item>
+                <Item mccmnc="40420">202</Item>
+                <Item mccmnc="40488">202</Item>
+                <Item mccmnc="40460">202</Item>
+                <Item mccmnc="40443">202</Item>
+                <Item mccmnc="40415">202</Item>
+                <Item mccmnc="40566">202</Item>
+                <Item mccmnc="40567">202</Item>
+                <Item mccmnc="405751">202</Item>
+                <Item mccmnc="405752">202</Item>
+                <Item mccmnc="405754">202</Item>
+                <Item mccmnc="405750">202</Item>
+                <Item mccmnc="405756">202</Item>
+                <Item mccmnc="405755">202</Item>
+                <Item mccmnc="405753">202</Item>
+                <Item mccmnc="27201">202</Item>
+                <Item mccmnc="22210">202</Item>
+                <Item mccmnc="27801">202</Item>
+                <Item mccmnc="20404">202</Item>
+                <Item mccmnc="53001">202</Item>
+                <Item mccmnc="26801">202</Item>
+                <Item mccmnc="42702">202</Item>
+                <Item mccmnc="22601">202</Item>
+                <Item mccmnc="21401">202</Item>
+                <Item mccmnc="28602">202</Item>
+                <Item mccmnc="23403">202</Item>
+                <Item mccmnc="23415">202</Item>
+				<!-- Vodafone add -->
+                <Item mccmnc="25501">202</Item>
+                <Item mccmnc="26209">202</Item>
+				<!-- disable Vodafone'53701' as not in <850_MCC_MNC_List V1.6.xlsx> 2017-11-29 by songjiaxin
+                <Item mccmnc="53701">202</Item>
+				-->
+                <Item mccmnc="54002">202</Item>
+                <Item mccmnc="63001">202</Item>
+                <Item mccmnc="63902">202</Item>
+                <Item mccmnc="64004">202</Item>
+				<!-- disable Vodafone'64106' as not in <850_MCC_MNC_List V1.6.xlsx> 2017-11-29 by songjiaxin
+                <Item mccmnc="64106">202</Item>
+				-->
+                <Item mccmnc="64304">202</Item>
+                <Item mccmnc="65101">202</Item>
+				<!-- disable Vodafone'90119' as not in <850_MCC_MNC_List V1.6.xlsx> 2017-11-29 by songjiaxin
+                <Item mccmnc="90119">202</Item>
+				-->
+				<!-- Vodafone add 2017-11-29 by songjiaxin-->
+				<Item mccmnc="20601">202</Item>
+				<Item mccmnc="20810">202</Item>
+				<Item mccmnc="21910">202</Item>
+				<Item mccmnc="22005">202</Item>
+				<Item mccmnc="23201">202</Item>
+				<Item mccmnc="23801">202</Item>
+				<Item mccmnc="24405">202</Item>
+				<Item mccmnc="24602">202</Item>
+				<Item mccmnc="24705">202</Item>
+				<Item mccmnc="25001">202</Item>
+				<Item mccmnc="27077">202</Item>
+				<Item mccmnc="28001">202</Item>
+				<Item mccmnc="28401">202</Item>
+				<Item mccmnc="29340">202</Item>
+				<Item mccmnc="29403">202</Item>
+				<Item mccmnc="41302">202</Item>
+				<Item mccmnc="42403">202</Item>
+				<Item mccmnc="42602">202</Item>
+				<Item mccmnc="50213">202</Item>
+				<Item mccmnc="50219">202</Item>
+				<Item mccmnc="64710">202</Item>
+				<Item mccmnc="65501">202</Item>
+				<Item mccmnc="73001">202</Item>
+				<Item mccmnc="40004">202</Item>
+				<!-- End Vodafone add 2017-11-29 by songjiaxin-->
+                <Item mccmnc="722010">205</Item>
+                <Item mccmnc="73002">205</Item>
+                <Item mccmnc="73007">205</Item>
+                <Item mccmnc="70604">205</Item>
+                <Item mccmnc="70403">205</Item>
+				<!-- Telefonica add -->
+                <Item mccmnc="21405">205</Item>
+                <Item mccmnc="21407">205</Item>
+                <Item mccmnc="72207">205</Item>
+                <Item mccmnc="74807">205</Item>
+                <Item mccmnc="71606">205</Item>
+                <Item mccmnc="74000">205</Item>
+                <Item mccmnc="73404">205</Item>
+                <Item mccmnc="732123">205</Item>	
+                <Item mccmnc="334003">205</Item>
+                <Item mccmnc="334030">205</Item>
+                <Item mccmnc="70430">205</Item>
+                <Item mccmnc="71402">205</Item>
+                <Item mccmnc="714020">205</Item>
+                <Item mccmnc="70640">205</Item>
+                <Item mccmnc="71204">205</Item>
+                <Item mccmnc="710030">205</Item>
+                <Item mccmnc="710300">205</Item>
+                <Item mccmnc="26203">205</Item>	
+                <Item mccmnc="72406">205</Item>
+                <Item mccmnc="72410">205</Item>
+                <Item mccmnc="72411">205</Item>	
+                <Item mccmnc="72423">205</Item>
+                <Item mccmnc="72428">205</Item>		
+				<!-- disable O2"26207" and "23410" 2018-04-28 by songiaxin				
+                <Item mccmnc="26207">205</Item>
+                <Item mccmnc="23410">205</Item>
+				-->
+				<!-- disable Orange 2017-11-29 by songiaxin
+				<Item mccmnc="28310">204</Item>
+                <Item mccmnc="65202">204</Item>
+                <Item mccmnc="62402">204</Item>
+                <Item mccmnc="63086">204</Item>
+                <Item mccmnc="61203">204</Item>
+                <Item mccmnc="37001">204</Item>
+                <Item mccmnc="20802">204</Item>
+                <Item mccmnc="20801">204</Item>
+                <Item mccmnc="34001">204</Item>
+                <Item mccmnc="61101">204</Item>
+                <Item mccmnc="63203">204</Item>
+                <Item mccmnc="42501">204</Item>
+                <Item mccmnc="41677">204</Item>
+                <Item mccmnc="63907">204</Item>
+                <Item mccmnc="27099">204</Item>
+                <Item mccmnc="64602">204</Item>
+                <Item mccmnc="61002">204</Item>
+                <Item mccmnc="61701">204</Item>
+                <Item mccmnc="61404">204</Item>
+                <Item mccmnc="26003">204</Item>
+                <Item mccmnc="64700">204</Item>
+                <Item mccmnc="22610">204</Item>
+                <Item mccmnc="60801">204</Item>
+                <Item mccmnc="23101">204</Item>
+                <Item mccmnc="21403">204</Item>
+                <Item mccmnc="60501">204</Item>
+                <Item mccmnc="64114">204</Item>
+                <Item mccmnc="23433">204</Item>
+				-->
+                <Item mccmnc="50501">107</Item>
+				<!-- Telstra ADD '50571''50572' 2017-11-29 by songjiaxin-->
+				<Item mccmnc="50571">107</Item>
+				<Item mccmnc="50572">107</Item>
+				<Item mccmnc="44010">216</Item>
+				<!-- Docomo add -->
+				<!-- disable Docomo'310370' as not in <850_MCC_MNC_List V1.6.xlsx> 2017-11-29 by songjiaxin
+                <Item mccmnc="310370">216</Item>
+				-->
+                <Item mccmnc="44051">115</Item>
+                <Item mccmnc="44050">115</Item>
+                <Item mccmnc="29501">210</Item>
+                <Item mccmnc="22801">210</Item>
+                <Item mccmnc="46692">16</Item>
+                <Item mccmnc="46601">17</Item>
+                <Item mccmnc="46688">17</Item>
+				<!-- DT -->
+				<Item mccmnc="27601">119</Item>
+				<Item mccmnc="23203">119</Item>
+				<Item mccmnc="23207">119</Item>
+				<Item mccmnc="23001">119</Item>
+				<Item mccmnc="21901">119</Item>
+				<Item mccmnc="26201">119</Item>
+				<Item mccmnc="20201">119</Item>
+				<Item mccmnc="21630">119</Item>
+				<Item mccmnc="29401">119</Item>
+				<Item mccmnc="29702">119</Item>
+				<Item mccmnc="20416">119</Item>
+				<Item mccmnc="26002">119</Item>
+				<Item mccmnc="22603">119</Item>
+				<Item mccmnc="23102">119</Item>
+				<!-- DT add -->
+				<!-- disable DT'22004' as not in <850_MCC_MNC_List V1.6.xlsx> 2017-11-29 by songjiaxin
+				<Item mccmnc="22004">119</Item>
+				-->
+				<Item mccmnc="20420">119</Item>
+				<Item mccmnc="22606">119</Item>				
+				<!-- SBM -->
+				<Item mccmnc="44020">218</Item>	
+				<!-- Optus -->
+				<Item mccmnc="50502">226</Item>	
+				<!--
+                <Item mccmnc="46693">18</Item>
+                <Item mccmnc="46697">19</Item>
+                <Item mccmnc="46689">20</Item>
+				 -->
+            </MCCMNCTable>
+            <ICCIDTable>
+			    <!--
+                <Range min="8931440301435498066" max="8931440301435498066">202</Range>
+				-->
+            </ICCIDTable>
+        </SelectionRule>
+    </SwitchingRule>
+</SwitchTable>

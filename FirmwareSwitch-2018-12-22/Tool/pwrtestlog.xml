@@ -1,0 +1,41 @@
+<PwrTestLog date="09/07/2017" time="14:15:38" filename="C:\Users\Local_Admin\Desktop\script\FirmwareSwitch-2017-09-07\Tool\pwrtestlog.xml">
+  <SystemInformation>
+    <ComputerName>DESKTOP-6E8E729</ComputerName>
+    <OSBuildNumber>15063</OSBuildNumber>
+    <SystemManufacturer>Intel Corporation</SystemManufacturer>
+    <SystemProductName>Kabylake Client platform</SystemProductName>
+    <BIOSVersion>KBLSE2R1.R00.X078.P00.1703222240</BIOSVersion>
+    <BIOSReleaseDate>03/22/2017</BIOSReleaseDate>
+    <ProcessorCount>4</ProcessorCount>
+    <ProcessorPackageCount>1</ProcessorPackageCount>
+  </SystemInformation>
+  <SYSTEM_POWER_CAPABILITIES>
+    <SystemS1StateSupported>0</SystemS1StateSupported>
+    <SystemS2StateSupported>0</SystemS2StateSupported>
+    <SystemS3StateSupported>1</SystemS3StateSupported>
+    <SystemS4StateSupported>1</SystemS4StateSupported>
+    <SystemS5StateSupported>1</SystemS5StateSupported>
+    <RtcWakeSupported>4</RtcWakeSupported>
+    <FastSystemS4>1</FastSystemS4>
+    <VideoDimPresent>0</VideoDimPresent>
+    <HiberFilePresent>1</HiberFilePresent>
+    <AoAc>0</AoAc>
+  </SYSTEM_POWER_CAPABILITIES>
+  <SleepScenario>
+    <SleepTransitions hybrid="0" delay="30" sleeptime="30" IgnoreUsbHub="0" EndTransitionEventTimeout="120">
+      <SleepTransition number="0" status="0">
+        <StartT>09/07/2017 14:15:39</StartT>
+        <EndT>09/07/2017 14:15:57</EndT>
+        <Duration>00:00:18</Duration>
+        <TargetState>3</TargetState>
+        <EffectiveState>3</EffectiveState>
+        <Suspend>12722</Suspend>
+        <BIOSInit>837</BIOSInit>
+        <DriverInit>756</DriverInit>
+        <HiberPagesWritten>0</HiberPagesWritten>
+        <HiberRead>0</HiberRead>
+        <HiberWrite>0</HiberWrite>
+      </SleepTransition>
+    </SleepTransitions>
+  </SleepScenario>
+</PwrTestLog>
